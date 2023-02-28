@@ -23,3 +23,8 @@
   --blue-light: #DFE7FD;
   --blue: #CDDAFD;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
