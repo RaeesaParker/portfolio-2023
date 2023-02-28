@@ -1,0 +1,25 @@
+/* Create root styling */
+
+
+:root{
+
+  /* Fonts */
+  --font-serif: 'Cambay', sans-serif;
+  --font-sans: 'Indie Flower', cursive;
+
+  /* Colours */
+  --black: #111111;
+  --grey: #555555;
+  --white: #f5f5f5;
+  --cream: #FFF1E6;
+  --orange: #F7D9C4;
+  --yellow: #FAEDCB;
+  --green-light: #E2ECE9;
+  --green: #C9E4DE;
+  --light-pink: #FDE2E4;
+  --pink: #FAD2E1;
+  --pink-dark: #F2C6DE;
+  --purple: #DBCDF0;
+  --blue-light: #DFE7FD;
+  --blue: #CDDAFD;
+}
