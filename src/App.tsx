@@ -1,13 +1,15 @@
-import logo from './logo.svg';
 import React from 'react';
-
 import './App.css';
+
+// Components
+import Home from './components/home/Home';
+import NavBar from './components/navbar/NavBar';
 
 function App() {
   return (
     <div >
-      <h1>Raeesa's new portfolio
-      </h1>
+      <NavBar/>
+      <Home />
     </div>
   );
 }
