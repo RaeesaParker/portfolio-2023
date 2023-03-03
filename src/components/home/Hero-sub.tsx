@@ -36,10 +36,14 @@ function HeroSub() {
             Hire Me?
           </RoughNotation> 
       </p>
-      <div className='div-buttons'>
-        <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" ><button className="button-dark" ><i className="fa-brands fa-linkedin-in"></i> LinkedIn</button> </a>
-        <a href="https://github.com/RaeesaParker"  target="_blank"> <button className="button-light"> <i className="fa-brands fa-github"></i> GitHub</button></a>
-      </div>
+      <div id="home-buttons">
+          <div >
+            <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" ><button className="button-dark" > Contact</button> </a>
+          </div>
+          <div>
+            <a href="https://github.com/RaeesaParker"  target="_blank"> <button className="button-light">CV</button></a>
+          </div>
+        </div>
     </div>
   );
 }

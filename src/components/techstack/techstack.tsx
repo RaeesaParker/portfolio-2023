@@ -1,0 +1,1 @@
+export const techStackArray = ["HTML", "CSS", "Javascript", "Bootstrap", "React", "Tyescript", "Figma", "Node.js", "MongoDB", "SQL", "Git", "Python"]

@@ -1,6 +1,7 @@
 #section-home{
   display: flex;
   flex-direction: column;
+  margin: 0 0 15% 0;
 }
 
 #div-location{
@@ -37,12 +38,16 @@
 
 #hero-image img{
   border-radius: 15px;
-  margin: 0 0 0 5%;
-  width: 70%;
+  margin: 0 0 0 20%;
+  width: 60%;
+}
+
+#hero-sub{
+  margin: 2% 0 0 0;
 }
 
 #hero-sub-text{
-  padding: 5% 0 0 5%;
+  padding: 0 0 0 5%;
 }
 
 #hero-sub-text.fa-brands{
@@ -52,4 +57,22 @@
 
 .div-buttons{
   margin: 5% 0 0 0;
+}
+
+#home-buttons{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+}
+
+#home-buttons div{
+  margin: 5% 2% 0 0;
+  width: 100%;
+}
+
+#home-buttons button{
+  margin: 10% auto 10% auto;
+  width: 100%;
 }
