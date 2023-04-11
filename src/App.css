@@ -28,6 +28,10 @@
 
 /* Elements */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-sans);
   margin: 0;
@@ -53,12 +57,13 @@ hr{
 
 a, u {
   text-decoration: none;
+  color: var(--grey-dark);
 }
 
 /* Classes */
 
 .theme-light{
-  background-color: var(--white);
+  background-color: white;
   color: var(--grey-dark);
 }
 
@@ -79,7 +84,7 @@ a, u {
 
 button{
   border-radius: 10px;
-  font-size: 16px;
+  font-size: 18px;
   height: 2.5rem;
   margin: 0;
   width: 30%;
@@ -106,10 +111,18 @@ button:hover{
 
 
 .title-alignment{
-  margin: 5% 0 3% 0;
+  margin: 5% 0 2% 0;
   text-align: center;
 }
 
 .title-alignment h2{
   margin: 0 0 2% 0;
+}
+
+#footer{
+  color: var(--grey-light);
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  margin: 5% 0 1% 0;
+  text-align: center;
 }

@@ -23,7 +23,7 @@
 #about-bottom h3{
   font-family: var(--font-serif);
   font-size: 1.5rem;
-  margin: 0 0 0 0;
+  margin: 2% 0 0 0;
   text-align: center;
 }
 
@@ -42,7 +42,7 @@
 }
 
 #about-buttons button{
-  margin: 10% auto 10% auto;
+  margin: 15% auto 10% auto;
   width: 100%;
 }
 

@@ -79,7 +79,7 @@ function AboutSub() {
           <h3> Interested in  working together  or hiring me? </h3>
           <div id="about-buttons">
             <div >
-              <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" ><button className="button-dark" > Contact</button> </a>
+              <a href="#section-contact"><button className="button-dark" > Contact</button> </a>
             </div>
             <div>
               <a href="https://github.com/RaeesaParker"  target="_blank"> <button className="button-light">CV</button></a>

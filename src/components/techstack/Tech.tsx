@@ -1,5 +1,4 @@
 import React from 'react';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import './Tech.css';
 import TechSub from './Tech-sub';
 

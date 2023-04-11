@@ -24,7 +24,8 @@ function HeroSub() {
         </RoughNotationGroup>
         &nbsp; applications.
       </p>
-      <p>I'm currently looking for my next role as a developer.<br/>
+      <br/>
+      <p >I'm currently looking for my next role as a developer.<br/>
         <RoughNotation 
           type="circle" 
           color='var(--orange)'
@@ -38,10 +39,10 @@ function HeroSub() {
       </p>
       <div id="home-buttons">
           <div >
-            <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" ><button className="button-dark" > Contact</button> </a>
+            <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" ><button className="button-dark" > View LinkedIn</button> </a>
           </div>
           <div>
-            <a href="https://github.com/RaeesaParker"  target="_blank"> <button className="button-light">CV</button></a>
+            <a href="https://github.com/RaeesaParker"  target="_blank"> <button className="button-light">View GitHub</button></a>
           </div>
         </div>
     </div>
