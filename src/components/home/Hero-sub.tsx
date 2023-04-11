@@ -14,29 +14,9 @@ function HeroSub() {
   return (
     <div>
       <p>I love creating things for the web.</p>
-      <p>I use React.js to develop &nbsp; 
-        <RoughNotationGroup show={true}>
-          <RoughNotation type="highlight" color='var(--pink)' animationDelay= {2000}  padding={[0,0,0,0]}>simple,</RoughNotation>
-          &nbsp;
-          <RoughNotation type="highlight" color='var(--purple)' animationDelay= {2000}  padding={[0,0,0,0]}>user-friendly </RoughNotation>
-          &nbsp; and &nbsp;
-          <RoughNotation type="highlight" color='var(--blue)' animationDelay= {2000} padding={[0,0,0,0]}>fun</RoughNotation>
-        </RoughNotationGroup>
-        &nbsp; applications.
-      </p>
+      <p>I use React.js to develop simple, user-friendly, and fun applications.</p>
       <br/>
-      <p >I'm currently looking for my next role as a developer.<br/>
-        <RoughNotation 
-          type="circle" 
-          color='var(--orange)'
-          show={true}
-          animationDelay= {5000} 
-          strokeWidth={2}
-          padding={[10, 7 , 7 ,7]}
-          >
-            Hire Me?
-          </RoughNotation> 
-      </p>
+      <p >I'm currently looking for my next role as a developer. <br/> Hire Me? </p>
       <div id="home-buttons">
           <div >
             <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" ><button className="button-dark" > View LinkedIn</button> </a>

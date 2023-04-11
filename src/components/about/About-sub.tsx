@@ -15,64 +15,8 @@ function AboutSub() {
 
       <div id="about-text">
         <div>
-          <p>I used to be an Astrophysicist, using code to solve problems on the largest of scales. But in 2022, I decided to take my &nbsp;        
-            
-            <RoughNotation 
-            type="underline" 
-            color='var(--pink-dark)'
-            show={true}
-            strokeWidth={2}
-            padding={[-5, 0 , 0 , 0]}
-            >
-              passion for coding
-            </RoughNotation>  
-
-            &nbsp; and &nbsp;
-
-            <RoughNotation 
-            type="underline" 
-            color='var(--pink-dark)'
-            show={true}
-            strokeWidth={2}
-            padding={[-5, 0 , 0 , 0]}
-            animationDelay={700}
-            >
-              problem solving
-            </RoughNotation>  
-
-            &nbsp; from the stars down to the world wide web. </p>
-
-          <p> I'm open to job opportunities where I can &nbsp;
-            <RoughNotation 
-            type="underline" 
-            color='var(--purple)'
-            show={true}
-            strokeWidth={2}
-            padding={[-5, 0 , 0 , 0]}
-            animationDelay={1000}
-              >contribute
-            </RoughNotation>, 
-
-            <RoughNotation 
-            type="underline" 
-            color='var(--purple)'
-            show={true}
-            strokeWidth={2}
-            padding={[-5, 0 , 0 , 0]}
-            animationDelay={1500}
-              >learn</RoughNotation>, and &nbsp;
-
-            <RoughNotation 
-            type="underline" 
-            color='var(--purple)'
-            show={true}
-            strokeWidth={2}
-            animationDelay={2000}
-            padding={[-5, 0 , 0 , 0]}
-              >grow.</RoughNotation>
-
-            &nbsp;If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
-          </p>
+          <p>I used to be an Astrophysicist, using code to solve problems on the largest of scales. But in 2022, I decided to take my passion for coding and problem solving from the stars down to the world wide web. </p>
+          <p> I'm open to job opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
         </div>
 
         <div id="about-bottom">

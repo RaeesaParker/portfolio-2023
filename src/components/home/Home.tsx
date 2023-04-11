@@ -20,15 +20,7 @@ function Home() {
 
       <div id="hero-title" className='div-stack'>
         <h1>Hello there! My name's Raeesa Parker</h1>
-        <h3>I'm a  &nbsp;
-          <RoughNotation 
-          type="highlight" 
-          color='var(--green)'
-          show={true}
-          animationDelay= {1000} >
-            Front-End Developer. 
-          </RoughNotation> 
-        </h3>
+        <h3>I'm a Front-End Developer. </h3>
       </div>
      
       <div className='div-split' id="hero-sub">
