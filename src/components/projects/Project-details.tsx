@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { ProjectProfile } from '../../data/api';
 
 import './Project.css';
@@ -10,12 +8,11 @@ type ProjectProps = {
 
 function ProjectDetails( props: ProjectProps ) {
 
-
   return (
     <div className='div-split' id="projects-details">
 
       <div id="project-img">
-        <h4>Image</h4>
+        {props.profile ? <img src={require('./assets/' + props.profile?.ProjectImage + '.jpg')} alt="Project" /> : null}
       </div>
 
       <div id="project-text">
@@ -33,12 +30,12 @@ function ProjectDetails( props: ProjectProps ) {
         </div>
 
         <div id="project-buttons">
-          <div >
-            {props.profile ? <a href={props.profile.DemoLink}  target="_blank" ><button>Demo</button> </a> : null }
+          <div>
+            {props.profile?.DemoLink ? <a href={props.profile.DemoLink}  target="_blank" ><button>Demo</button> </a> : null }
             
           </div>
           <div>
-            {props.profile ? <a href={props.profile.CodeLink}  target="_blank" ><button>Code</button> </a> : null }
+            {props.profile?.CodeLink ? <a href={props.profile.CodeLink}  target="_blank" ><button>Code</button> </a> : null }
           </div>
           </div>    
       </div>

@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 
 import { ProjectProfile } from '../../data/api';
 import ProjectDetails from './Project-details';
