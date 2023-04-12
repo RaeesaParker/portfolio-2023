@@ -17,7 +17,7 @@ function Tech() {
       </div>
 
       <div>
-        <TechSub/>
+        {/* <TechSub/> */}
       </div>
       
     </div>
