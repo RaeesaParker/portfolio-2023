@@ -9,10 +9,11 @@ function Project() {
 
 
   return (
-    <div id="section-project">
-      <div  className='div-stack title-alignment'>
+    <div id="section-project" className='section-layout'>
+
+      <div  className='title-alignment'>
         <h2>Projects</h2>
-        <h3>A collection of the projects I have worked on</h3>
+        <hr/>
       </div>
 
       <div>

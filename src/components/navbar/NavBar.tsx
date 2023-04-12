@@ -9,7 +9,7 @@ function NavBar() {
      <a href="#section-home">HOME</a>
      <a href="#section-about">ABOUT</a>
      <a href="#section-experience">EXPERIENCE</a>
-     <a href="#section-projects">PROJECTS</a>
+     <a href="#section-project">PROJECTS</a>
      <a href="#section-contact">CONTACT</a>
     </div>
   );

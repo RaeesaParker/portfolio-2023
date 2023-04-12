@@ -4,9 +4,7 @@ import ExperienceSub from './Experience-sub';
 
 function Experience() {
 
-  // -------------------- //
-  // Annotation set-up
-  // -------------------- //
+
 
   return (
     <div id="section-experience" className='section-layout'>

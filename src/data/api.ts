@@ -1,10 +1,10 @@
 export type ProjectProfile = {
   projectName: string | null,
   projectDescription: string | null,
-  ProjectImage: string | null,
-  TechStack: Array<string>,
-  DemoLink: string | null,
-  CodeLink: string | null
+  projectImage: string | null,
+  techStack: Array<string>,
+  demoLink: string | null,
+  codeLink: string | null
 }
 
 export type ExperienceProfile = {

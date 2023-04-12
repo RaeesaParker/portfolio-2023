@@ -34,8 +34,9 @@ function ExperienceSub() {
             <div 
               key={index}
               className={item.PlaceName==experienceSelected ? "experience-chosen" : "experience-not-chosen"}
+              onClick={() => setExperienceFunc(item.PlaceName)}
               > 
-              <p onClick={() => setExperienceFunc(item.PlaceName)}>{item.PlaceName}</p> 
+              <p>{item.PlaceName}</p> 
             </div>)
         })}
       </div>

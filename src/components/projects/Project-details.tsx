@@ -12,7 +12,7 @@ function ProjectDetails( props: ProjectProps ) {
     <div className='div-split' id="projects-details">
 
       <div id="project-img">
-        {props.profile ? <img src={require('./assets/' + props.profile?.ProjectImage + '.jpg')} alt="Project" /> : null}
+        {props.profile ? <img src={require('./assets/' + props.profile?.projectImage + '.jpg')} alt="Project" /> : null}
       </div>
 
       <div id="project-text">
@@ -22,7 +22,7 @@ function ProjectDetails( props: ProjectProps ) {
         </div>
 
         <div className='div-split' id="project-tech">
-          {props.profile?.TechStack.map((tech:any, index:any) => {
+          {props.profile?.techStack.map((tech:any, index:any) => {
           return(
             <div className='tech-card-project' key={index}> <p>{tech}</p> </div>
           )
@@ -31,11 +31,10 @@ function ProjectDetails( props: ProjectProps ) {
 
         <div id="project-buttons">
           <div>
-            {props.profile?.DemoLink ? <a href={props.profile.DemoLink}  target="_blank" ><button>Demo</button> </a> : null }
-            
+            {props.profile?.DemoLink ? <a href={props.profile.demoLink}  target="_blank" ><button>Demo</button> </a> : null }
           </div>
           <div>
-            {props.profile?.CodeLink ? <a href={props.profile.CodeLink}  target="_blank" ><button>Code</button> </a> : null }
+            {props.profile?.CodeLink ? <a href={props.profile.codeLink}  target="_blank" ><button>Code</button> </a> : null }
           </div>
           </div>    
       </div>
