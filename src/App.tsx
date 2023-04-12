@@ -14,14 +14,14 @@ import './App.css';
 function App() {
   return (
     <div >
-      {/* <Home /> */}
+      <Home />
       <NavBar/>
       <About />
       <Experience />
       <ExperienceCTA />
       <Project/>
       <Contact/>
-      <p id="footer">Made by Raeesa Parker &#169; 2023</p>
+      
     </div>
   );
 }

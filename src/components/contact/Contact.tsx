@@ -11,14 +11,18 @@ function Contact() {
   // -------------------- //
 
   return (
-    <div id="section-contact">
+    <div id="section-contact" className='section-layout'>
       <div  className='div-stack title-alignment'>
         <h2>Contact</h2>
-        <h3>Feel free to get in touch</h3>
+        <hr/>
       </div>
 
       <div>
         <ContactSub/>
+      </div>
+
+      <div>
+        <p id="footer">Made by Raeesa Parker &#169; 2023</p>
       </div>
       
     </div>

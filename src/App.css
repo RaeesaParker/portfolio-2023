@@ -92,8 +92,8 @@ button:hover{
 
 
 #footer{
-  color: var(--grey-light);
+  color: var(--navy);
   font-size: 0.7rem;
-  margin: 5% 0 1% 0;
+  margin: 0 0 1% 0;
   text-align: center;
 }

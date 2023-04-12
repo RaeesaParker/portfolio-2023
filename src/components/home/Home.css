@@ -48,10 +48,14 @@
 
 #hero-title button:hover{
   background-color: var(--blue-bright);
+  transition-duration: 0.5s;
+
 }
 
 #hero-title button:hover #arrow-icon{
   transform: rotateZ(90deg);
+  transition-duration: 0.5s;
+
 }
 
 
