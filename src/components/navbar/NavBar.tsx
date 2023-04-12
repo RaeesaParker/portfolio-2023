@@ -1,23 +1,16 @@
-import React from 'react';
-import { useState } from 'react';
 import './NavBar.css';
 
-import NavMenu from './NavMenu';
 
 function NavBar() {
 
-  // State to open and close navmenu
-  const [menuOpen, setMenuOpen] = useState(false)
-
-  // Function to open and close menu
-  function menuClickFunction (){
-    setMenuOpen(!menuOpen)
-  }
 
   return (
     <div id="navbar-div">
-      <i className="fa-solid fa-bars" onClick={menuClickFunction}></i>
-      {menuOpen == true? <NavMenu/ > : null}
+     <a href="#section-home">HOME</a>
+     <a href="#section-about">ABOUT</a>
+     <a href="#section-experience">EXPERIENCE</a>
+     <a href="#section-projects">PROJECTS</a>
+     <a href="#section-contact">CONTACT</a>
     </div>
   );
 }

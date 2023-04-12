@@ -1,8 +1,7 @@
 #section-home{
   background-color: var(--navy);
   display: flex;
-  height: 100vh;
-  margin: 0 0 5% 0;
+  height: 110vh;
 }
 
 #hero-title{
