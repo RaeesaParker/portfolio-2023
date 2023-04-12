@@ -5,25 +5,7 @@
   margin: 2% 0 15% 0;
 }
 
-#tech-stack{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 0 2% 0 0;
-  width:65%;
-}
 
-.tech-card{
-  align-items: center;
-  background-color: var(--green);
-  border-radius: 10px;
-  display: flex;
-  height: 13%;
-  justify-content: center;
-  margin: 0 2% 0 0;
-  padding: 1% 0 0 0 ;
-  width: 20%;
-}
 
 #tech-learn{
   width: 30%;

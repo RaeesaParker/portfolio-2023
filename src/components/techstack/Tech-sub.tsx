@@ -1,5 +1,5 @@
 import './Tech.css';
-import {techStackArray} from "./techstack"
+// import {techStackArray} from "./techstack"
 
 
 function TechSub() {
@@ -10,13 +10,13 @@ function TechSub() {
 
   return (
     <div className='div-split'>
-      <div id="tech-stack">
+      {/* <div id="tech-stack">
         {techStackArray.map((tech, index) => {
           return(
             <div className='tech-card' key={index}> <p>{tech}</p> </div>
           )
         })}
-      </div>
+      </div> */}
 
       <div  id="tech-learn">
         <p> I absolutely love to learn. That is why I aim to always be exploring new technologies.  </p>

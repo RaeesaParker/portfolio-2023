@@ -1,8 +1,6 @@
-import React from 'react';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import './Home.css';
-import profilePic from '../../assets/profile.jpg'
-import HeroSub from './Hero-sub';
 
 function Home() {
 
@@ -13,23 +11,18 @@ function Home() {
   return (
     <div id="section-home">
 
-      <div id="div-location"> 
-        <i className="fa-solid fa-location-dot"></i>
-        <p>Lancashire, England</p>
+      <div id="starsBox">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
       </div>
 
       <div id="hero-title" className='div-stack'>
-        <h1>Hello there! My name's Raeesa Parker</h1>
-        <h3>I'm a Front-End Developer. </h3>
-      </div>
-     
-      <div className='div-split' id="hero-sub">
-        <div id="hero-image">
-          <img src={profilePic}  alt="Profile of Raeesa Parker"/>
-        </div>
-        <div id="hero-sub-text" >
-          <HeroSub/>
-        </div>
+        <h1>Hello there! I'm <span id="hero-name"> Raeesa Parker </span>.</h1>
+        <h3>Astrophysicist turned web developer. </h3>
+        <a href="#section-about"> 
+          <button >View my work  &nbsp; <FontAwesomeIcon icon={faArrowRight} id="arrow-icon" /> </button>
+        </a>
       </div>
     </div>
   );

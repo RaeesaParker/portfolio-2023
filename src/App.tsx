@@ -1,20 +1,20 @@
 import React from 'react';
-import './App.css';
 
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
 // Components
 import Home from './components/home/Home';
 import NavBar from './components/navbar/NavBar';
-import About from './components/about/About';
-import Tech from './components/techstack/Tech';
 import Project from './components/projects/Project';
-import Contact from './components/contact/Contact';
+import Tech from './components/techstack/Tech';
+
+import './App.css';
 
 function App() {
   return (
     <div >
+      {/* <Home /> */}
       <NavBar/>
-      <Home />
-      <hr/>
       <About />
       <hr/>
       <Tech />
