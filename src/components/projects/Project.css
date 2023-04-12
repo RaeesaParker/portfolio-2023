@@ -1,0 +1,172 @@
+#section-project{
+  display: flex;
+  flex-direction: column;
+  min-height: 50vh;
+  margin: 2% 0 3% 0;
+}
+
+#project-sub{
+  min-height: 65vh;
+}
+
+#projects-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#projects-menu h4{
+  margin:  0 0 0 0;
+}
+
+#projects-menu h4:hover{
+  color: var(--grey);
+  cursor: pointer;
+}
+
+.project-chosen{
+  text-decoration: underline solid var(--pink) 5px; 
+  text-underline-offset: 10px;
+}
+
+
+#projects-details{
+  padding: 2% 0 0 0;
+  margin: 3% 0 0 0;
+  height: 100%;
+}
+
+
+#project-img{
+  height: 100%;
+  max-width: 50%;
+}
+
+#project-img img{
+  max-width: 100%;
+}
+
+
+#project-text{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 5%;
+
+}
+
+
+
+
+
+
+/* ------------------- */
+
+
+
+#project-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+.card-container{
+  min-height:50vh;
+  margin: 5% 0 0 0;
+  perspective: 500px;
+  width: 44vw;
+}
+
+.card-container:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg) ;
+}
+
+.card{ 
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 1500ms;
+}
+
+
+.card-front, 
+.card-back{
+  border: 2px solid var(--navy);
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  backface-visibility: hidden;
+}
+
+.card-front img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-back{
+  background-color: var(--navy);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2% 1% 2% 1%;
+  transform: rotateY(180deg)   ;
+}
+
+.card-back h4{
+  font-size: 1.1rem;
+}
+
+.card-back p{
+  margin: 2% 0 0 0;
+}
+
+.card-back h4, .card-back p{
+  color: var(--white);
+  text-align: center;
+}
+
+#project-tech{
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tech-card-project{
+  align-items: center;
+  background-color: var(--grey-extra-light);
+  display: flex;
+  justify-content: center;
+  padding: 0 1% 0 1% ;
+  min-width: 20%;
+}
+
+.tech-card-project p{
+  color: var(--grey-dark);
+}
+
+
+#project-buttons{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#project-buttons button{
+  background: none;
+  border: 2px solid var(--blue-bright);
+  color: var(--white);
+  padding: 5% 0 5% 0;
+  width: 10vw;
+}
+
+#project-buttons button:hover{
+  background-color: var(--blue-bright);
+  cursor: pointer;
+  translate: 0 -3px;
+  transition-duration: 0.5s;
+}

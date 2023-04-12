@@ -1,0 +1,21 @@
+#navbar-div{
+  align-items: center;
+  background-color: var(--navy);
+  border-bottom: 3px solid var(--blue-bright);
+  display: flex;
+  height: 10vh;
+  justify-content: flex-start;
+  padding: 0 0 0 2%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+#navbar-div a{
+  color: var(--white);
+  margin: 0 5% 0 0;
+}
+
+#navbar-div a:hover{
+  color: var(--yellow);
+}
