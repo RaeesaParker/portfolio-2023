@@ -6,21 +6,20 @@ import Contact from './components/contact/Contact';
 import Home from './components/home/Home';
 import NavBar from './components/navbar/NavBar';
 import Project from './components/projects/Project';
-import Tech from './components/techstack/Tech';
+import Experience from './components/experience/Experience';
+import ExperienceCTA from './components/experience/ExperienceCTA';
 
 import './App.css';
 
 function App() {
   return (
     <div >
-      <Home />
+      {/* <Home /> */}
       <NavBar/>
       <About />
-      <hr/>
-      <Tech />
-      <hr/>
+      <Experience />
+      <ExperienceCTA />
       <Project/>
-      <hr/>
       <Contact/>
       <p id="footer">Made by Raeesa Parker &#169; 2023</p>
     </div>

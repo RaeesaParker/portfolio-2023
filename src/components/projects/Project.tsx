@@ -6,9 +6,7 @@ import ProjectSub from './Project-sub';
 
 function Project() {
 
-  // -------------------- //
-  // Annotation set-up
-  // -------------------- //
+
 
   return (
     <div id="section-project">
