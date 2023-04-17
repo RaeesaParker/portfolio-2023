@@ -1,47 +1,19 @@
-#section-contact{
-  background-color: var(--grey-extra-light);
-  padding: 0 5% 0 5%;
-}
-
 #contact-sub{
-  justify-content: space-between;
-}
-
-#contact-socials{
   align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 30%;
+  justify-content: flex-end;
+  height: 100%;
 }
 
-.contact-icon{
-  display: flex;
-  justify-content: center;
+#contact-message{
+  text-align: center;
+  margin: 0 0 2vh 0;
   width: 100%;
 }
 
-.contact-icon a{
-  color: var(--blue-bright);
-  margin: 2% 5% 2% 0;
-}
-.contact-icon i:hover{
-  cursor: pointer;
-  color: var(--navy);
-  translate: 0 -5px;
-  transition-duration: 0.5s;
-}
-
-
-
-#contact-message{
-  font-size: 1.2rem;
-}
-
 #contact-form{
-  background-color: var(--blue-light);
-  border-radius: 10px;
-  width: 60%;
+  margin: 2% 0 0 0;
+	padding: 2% 7% 5% 7%;
+	text-align: left;
 }
 
 #contact-form button{
@@ -61,17 +33,13 @@
   transition-duration: 0.5s;
 }
 
-.div-form{
-	padding: 2% 7% 5% 7%;
-	text-align: left;
-}
+
 
 
 input{
-	background-color: var(--blue-light);
+	background:none;
 	border: none;
   border-bottom: 1px solid  var(--grey);
-  font-family: var(--font-sans);
   font-size: 1.0rem;
   line-height: 25px;
   padding-top: 2%;
@@ -89,7 +57,7 @@ input{
 }
 
 textarea{
-	background-color:var(--blue-light) ;
+	background:none ;
   border: 1px solid  var(--grey);
   font-family: var(--font-sans);
   font-size: 1.0rem;
@@ -99,3 +67,39 @@ textarea{
 }
 
 
+
+#footer{
+  align-items: center;
+  background-color: var(--yellow);
+  display: flex;
+  height: 5vh;
+  justify-content: space-around;
+  width: 100%;
+}
+
+#footer p{
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+
+.contact-icon{
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.font-icon{
+  color: var(--navy);
+  font-size: 1.2rem;
+  margin: 0 20% 0 0;
+}
+
+.font-icon:hover{
+  color: var(--blue-bright);
+  cursor: pointer;
+}
+
+.contact-icon a{
+  margin: 0 20% 0 0;
+}

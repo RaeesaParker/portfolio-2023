@@ -1,5 +1,3 @@
-import React from 'react';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
 import './Contact.css';
 import ContactSub from './Contact-sub';
 
@@ -12,19 +10,15 @@ function Contact() {
 
   return (
     <div id="section-contact" className='section-layout'>
-      <div  className='div-stack title-alignment'>
+      <div  className='title-alignment'>
         <h2>Contact</h2>
         <hr/>
       </div>
 
-      <div>
+      <div className='section-content' style={{padding:"0"}}>
         <ContactSub/>
       </div>
 
-      <div>
-        <p id="footer">Made by Raeesa Parker &#169; 2023</p>
-      </div>
-      
     </div>
   );
 }

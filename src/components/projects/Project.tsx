@@ -11,12 +11,12 @@ function Project() {
   return (
     <div id="section-project" className='section-layout'>
 
-      <div  className='title-alignment'>
+      <div className='title-alignment' style={{marginTop:"15vh"}}>
         <h2>Projects</h2>
         <hr/>
       </div>
 
-      <div>
+      <div id="project-details-section">
         <ProjectSub/>
       </div>
       
