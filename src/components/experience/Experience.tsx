@@ -14,7 +14,7 @@ function Experience() {
         <hr/>
       </div>
 
-      <div>
+      <div className='section-content' id="experience-sub">
         <ExperienceSub/>
       </div>
       

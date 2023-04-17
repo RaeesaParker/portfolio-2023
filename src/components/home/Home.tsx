@@ -11,11 +11,7 @@ function Home() {
   return (
     <div id="section-home">
 
-      <div id="starsBox">
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
-      </div>
+
 
       <div id="hero-title" className='div-stack'>
         <h1>Hello there! I'm <span id="hero-name"> Raeesa Parker </span>.</h1>

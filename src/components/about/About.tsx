@@ -11,7 +11,7 @@ function About() {
         <hr/>
       </div>
 
-      <div>
+      <div className='section-content'>
         <AboutSub/>
       </div>
       

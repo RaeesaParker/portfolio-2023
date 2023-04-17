@@ -3,6 +3,7 @@ import { experienceArray } from './experienceArray';
 import { ExperienceProfile } from '../../data/api';
 import { useEffect, useState } from 'react';
 import ExperienceDetails from './Experience-Details';
+import ExperienceCTA from './ExperienceCTA';
 function ExperienceSub() {
 
   const [experienceSelected, setExperienceSelected] = useState("Lancaster University");
@@ -26,24 +27,28 @@ function ExperienceSub() {
 
 
   return (
-    <div className='div-split' id="experience-content">
-
-      <div id="experience-menu">
-        {experienceArray.map((item, index) => {
-          return( 
-            <div 
-              key={index}
-              className={item.PlaceName==experienceSelected ? "experience-chosen" : "experience-not-chosen"}
-              onClick={() => setExperienceFunc(item.PlaceName)}
-              > 
-              <p>{item.PlaceName}</p> 
-            </div>)
-        })}
-      </div>
+    <div className='div-stack'  id="experience-details-section">
+      <div className='div-split' id="experience-content">
+        <div id="experience-menu">
+          {experienceArray.map((item, index) => {
+            return( 
+              <div 
+                key={index}
+                className={item.PlaceName==experienceSelected ? "experience-chosen" : "experience-not-chosen"}
+                onClick={() => setExperienceFunc(item.PlaceName)}
+                > 
+                <p>{item.PlaceName}</p> 
+              </div>)
+          })}
+        </div>
       
-      <div id="experience-details-item">
-        <ExperienceDetails experience={experienceProfile} />
-      </div>
+        <div id="experience-details-item">
+          <ExperienceDetails experience={experienceProfile} />
+        </div>
+    </div>
+    <div>
+      <ExperienceCTA />
+    </div>
     </div>
   );
 }

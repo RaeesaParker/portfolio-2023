@@ -1,20 +1,18 @@
 import {techStackArray} from "./techstack"
 
-import './About.css';
+import './Skills.css';
 
-function AboutTech() {
+function SkillsTech() {
 
 
   return (
-    <div>
-      <h3>My Skills</h3>
-
+    <div id="tech-content">
       <div id="tech-stack">
         {techStackArray.map((tech, index) => {
           return( <div className='tech-card' key={index}> <p>{tech}</p> </div>)
         })}
       </div>
-      <div>
+      <div id="tech-learn">
         <p> I am currently learning ...   </p>
         <h4>Typescript</h4>
       </div>
@@ -22,4 +20,4 @@ function AboutTech() {
   );
 }
 
-export default AboutTech;
+export default SkillsTech;
