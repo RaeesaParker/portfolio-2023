@@ -1,8 +1,9 @@
 import './NavBar.css';
+import { motion, useScroll } from "framer-motion";
 
 
 function NavBar() {
-
+const { scrollYProgress } = useScroll()
 
   return (
     <div id="navbar-div">
@@ -12,6 +13,7 @@ function NavBar() {
      <a href="#section-experience">EXPERIENCE</a>
      <a href="#section-project">PROJECTS</a>
      <a href="#section-contact">CONTACT</a>
+    <motion.div className="progress-bar" style={{ scaleX: scrollYProgress }} />
     </div>
   );
 }

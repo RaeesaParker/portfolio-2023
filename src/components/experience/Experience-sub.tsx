@@ -37,7 +37,7 @@ function ExperienceSub() {
                 className={item.PlaceName==experienceSelected ? "experience-chosen" : "experience-not-chosen"}
                 onClick={() => setExperienceFunc(item.PlaceName)}
                 > 
-                <p>{item.PlaceName}</p> 
+                <p className="menu-item-p">{item.PlaceName}</p> 
               </div>)
           })}
         </div>
@@ -47,7 +47,7 @@ function ExperienceSub() {
         </div>
     </div>
     <div>
-      <ExperienceCTA />
+      {/* <ExperienceCTA /> */}
     </div>
     </div>
   );

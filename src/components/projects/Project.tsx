@@ -1,8 +1,6 @@
-import React from 'react';
-import { RoughNotation, RoughNotationGroup } from "react-rough-notation";
-import './Project.css';
 import ProjectSub from './Project-sub';
 
+import './Project.css';
 
 function Project() {
 

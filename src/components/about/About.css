@@ -1,5 +1,16 @@
-.about-content-p{
-  margin: 0 0 5% 0;
+#about-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100%;
 }
 
+.about-content-p{
+  margin: 0 0 10% 0;
+}
+
+.highlight{
+  color: var(--blue-bright);
+  font-weight: 600;
+}
 

@@ -6,9 +6,10 @@ export const experienceArray = [
     "YearStart": "Feb 2023",
     "YearEnd": "Present",
     "Responsibilities": [
-      "Responsibility one",
-      "Responsibility two",
-      "Responsibility three",
+      "Member of the IT Partnering and Innovation Team working on applications to improve student experience and research",
+      "Aiding in the development of new applications using React and Typescript",
+      "Involved in agile process to continually improve existing applications, including the use of Git and Azure DevOps",
+      "Bringing applications inline with modern accessibility standards",
     ]
   },
   {
@@ -18,21 +19,22 @@ export const experienceArray = [
     "YearStart": "Sep 2022",
     "YearEnd": "Dec 2022",
     "Responsibilities": [
-      "Responsibility one",
-      "Responsibility two",
-      "Responsibility three",
+      "Intensive web development bootcamp with CodeNation",
+      "Worked with fundamental coding principles (HTML, CSS, Javascript) and modern UI libraries (React) ",
+      "Covered server-side programming using Node.JS, Express, MySQL, and MongoDB",
+      "Developed a number of full-stack application in an agile environment utilising Git",
     ]
   },
   {
     "PlaceName": "UCLan",
     "PlaceLink": "https://www.star.uclan.ac.uk/",
-    "Role": "PhD in Astrophysics",
+    "Role": "PhD and Assistant Researcher in Astrophysics",
     "YearStart": "Jan 2018",
     "YearEnd": "Mar 2022",
     "Responsibilities": [
-      "Responsibility one",
-      "Responsibility two",
-      "Responsibility three",
+      "PhD student and  Assistant Researcher in observational and theoretical planet formation",
+      "Extensive data analysis performed on large data sets using Python",
+      "Worked as part of international collaborations on cutting edge astrophysical research",
     ]
   },
 
