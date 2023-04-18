@@ -1,27 +1,29 @@
 import React from 'react';
 
+import About from './components/about/About';
+import Contact from './components/contact/Contact';
+import Experience from './components/experience/Experience';
 // Components
 import Home from './components/home/Home';
 import NavBar from './components/navbar/NavBar';
-import About from './components/about/About';
-import Skills from './components/skills/Skills';
 import Project from './components/projects/Project';
-import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
+import Skills from './components/skills/Skills';
 import StarsBackground from './components/stars/StarsBackground';
 
 import './App.css';
+import ExperienceCTA from './components/experience/ExperienceCTA';
 
 function App() {
   return (
     <div >
-      <StarsBackground />
+      {/* <StarsBackground /> */}
       <Home />
       <NavBar/>
       <About />
       <Skills />
       <Experience />
-      <StarsBackground />
+      <ExperienceCTA />
+      {/* <StarsBackground /> */}
       <Project/>
       <Contact/>
     </div>

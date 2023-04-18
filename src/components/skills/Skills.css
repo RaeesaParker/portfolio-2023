@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 0 0 15% 0;
+  margin: 0 0 5% 0;
   width: 100%;
 }
 
@@ -31,6 +31,7 @@
 }
 
 #tech-learn h4{
+  color: var(--blue-bright);
   margin: 5% 0 0 0;
   text-align: center;
 }

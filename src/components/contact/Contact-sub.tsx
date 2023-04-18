@@ -1,12 +1,13 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import './Contact.css';
+import { useState } from 'react';
 
 function ContactSub() {
 
-  // -------------------- //
-  // Annotation set-up
-  // -------------------- //
+  const [hoverText, setHoverText] = useState(false)
+
 
   return (
     <div className='div-stack' id="contact-sub">
@@ -26,10 +27,12 @@ function ContactSub() {
           <button type="submit" > Submit</button>
         </form>
       </div>
+      
       <div id="footer">
         <div className='contact-icon'> 
-          <a href="https://github.com/RaeesaParker" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} className='font-icon'/> </a>
+          <a href="https://github.com/RaeesaParker" target="_blank" rel="noreferrer" > <FontAwesomeIcon icon={faGithub} className='font-icon'/> </a>
           <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faLinkedin} className='font-icon'/> </a>
+          <a href="./RaeesaParkerCV.pdf"  target="_blank" rel="noreferrer"  download onMouseOver={() => {setHoverText(!hoverText)}} onMouseOut={() => {setHoverText(!hoverText)}}> <FontAwesomeIcon icon={faFilePdf} className='font-icon'/> </a>
         </div>
         <p >Made by Raeesa Parker &#169; 2023</p>
       </div>
@@ -38,3 +41,4 @@ function ContactSub() {
 }
 
 export default ContactSub;
+
