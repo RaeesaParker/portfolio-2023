@@ -1,12 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
-import './Contact.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 
-function ContactSub() {
+import './Contact.css';
 
-  const [hoverText, setHoverText] = useState(false)
+function ContactSub() {
 
 
   return (
@@ -32,7 +31,7 @@ function ContactSub() {
         <div className='contact-icon'> 
           <a href="https://github.com/RaeesaParker" target="_blank" rel="noreferrer" > <FontAwesomeIcon icon={faGithub} className='font-icon'/> </a>
           <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faLinkedin} className='font-icon'/> </a>
-          <a href="./RaeesaParkerCV.pdf"  target="_blank" rel="noreferrer"  download onMouseOver={() => {setHoverText(!hoverText)}} onMouseOut={() => {setHoverText(!hoverText)}}> <FontAwesomeIcon icon={faFilePdf} className='font-icon'/> </a>
+          <a href="./RaeesaParkerCV.pdf"  target="_blank" rel="noreferrer"  download > <FontAwesomeIcon icon={faFilePdf} className='font-icon'/></a>
         </div>
         <p >Made by Raeesa Parker &#169; 2023</p>
       </div>

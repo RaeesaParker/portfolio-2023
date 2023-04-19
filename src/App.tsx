@@ -16,14 +16,14 @@ import ExperienceCTA from './components/experience/ExperienceCTA';
 function App() {
   return (
     <div >
-      {/* <StarsBackground /> */}
+      <StarsBackground />
       <Home />
       <NavBar/>
       <About />
       <Skills />
       <Experience />
       <ExperienceCTA />
-      {/* <StarsBackground /> */}
+      <StarsBackground />
       <Project/>
       <Contact/>
     </div>

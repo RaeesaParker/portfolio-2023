@@ -1,13 +1,13 @@
 import './Skills.css'
 
 import SkillsTech from './Skills-tech'
+import { SectionTitle } from '../SectionTitle'
 
 export const Skills = () => {
   return(
     <div  id="section-skills" className='section-layout section-layout-switch'>
       <div  className='title-alignment'>
-        <h2>Skills</h2>
-        <hr/>
+        <SectionTitle title={"Skills"}/>
       </div>
 
       <div className='section-content'>
