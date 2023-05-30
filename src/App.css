@@ -111,6 +111,16 @@ button:hover{
 }
 
 
+@media only screen and (max-width: 768px) {
+  .section-layout{
+    flex-direction: column;
+  }
+  .section-content{
+    margin: 2vh 5% 0 5%;
+    min-height: 70vh;
+    width: 80%;
+  }
+}
 
 
 /*  ----------------------------------- */

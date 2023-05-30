@@ -46,6 +46,7 @@
   width: 20vw;
 }
 
+
 #hero-title button:hover{
   background-color: var(--blue-bright);
   transition-duration: 0.5s;
@@ -58,4 +59,21 @@
 
 }
 
+
+@media only screen and (max-width: 768px) {
+  #hero-title button{
+    margin: 10% 0 0 0;
+    padding: 7% 0;
+    width: 50vw;
+  }
+  #section-home h3{
+  font-size: 2.0rem;
+  margin: 5% 0 0 0;
+  padding: 0 2% 0 2%;
+  }
+  #section-home h1{
+    font-size: 2.0rem;
+    padding: 0 2% 0 2%;
+  }
+}
 

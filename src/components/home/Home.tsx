@@ -1,17 +1,13 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import './Home.css';
 
 function Home() {
 
-  // -------------------- //
-  // Annotation set-up
-  // -------------------- //
 
   return (
     <div id="section-home">
-
-
 
       <div id="hero-title" className='div-stack'>
         <h1>Hello there! I'm <span id="hero-name"> Raeesa Parker </span>.</h1>
