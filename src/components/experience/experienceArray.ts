@@ -2,9 +2,22 @@ export const experienceArray = [
   {
     "PlaceName": "Lancaster University",
     "PlaceLink": "https://www.lancaster.ac.uk/iss/itpi/",
+    "Role": "Full-stack Developer",
+    "YearStart": "Jul 2023",
+    "YearEnd": "Present",
+    "Responsibilities": [
+      "Member of the IT Partnering and Innovation Team working on applications to improve student experience and research",
+      "Aiding in the development of new applications using React, Typescript, C#, and AWS",
+      "Involved in agile process to continually improve existing applications, including the use of Git and Azure DevOps",
+      "Bringing applications inline with modern accessibility standards",
+    ]
+  },
+  {
+    "PlaceName": "Lancaster University",
+    "PlaceLink": "https://www.lancaster.ac.uk/iss/itpi/",
     "Role": "Junior Front-End Developer",
     "YearStart": "Feb 2023",
-    "YearEnd": "Present",
+    "YearEnd": "Jul 2023",
     "Responsibilities": [
       "Member of the IT Partnering and Innovation Team working on applications to improve student experience and research",
       "Aiding in the development of new applications using React and Typescript",
