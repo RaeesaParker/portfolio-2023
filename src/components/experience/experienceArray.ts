@@ -1,6 +1,6 @@
 export const experienceArray = [
   {
-    "PlaceName": "Lancaster University",
+    "PlaceName": "ITPI - Lancaster University",
     "PlaceLink": "https://www.lancaster.ac.uk/iss/itpi/",
     "Role": "Full-stack Developer",
     "YearStart": "Jul 2023",
