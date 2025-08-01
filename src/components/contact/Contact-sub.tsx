@@ -31,7 +31,6 @@ function ContactSub() {
         <div className='contact-icon'> 
           <a href="https://github.com/RaeesaParker" target="_blank" rel="noreferrer" > <FontAwesomeIcon icon={faGithub} className='font-icon'/> </a>
           <a href="https://www.linkedin.com/in/raeesa-parker/"  target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faLinkedin} className='font-icon'/> </a>
-          <a href="./RaeesaParkerCV.pdf"  target="_blank" rel="noreferrer"  download > CV </a>
         </div>
         <p >Made by Raeesa Parker &#169; 2023</p>
       </div>
